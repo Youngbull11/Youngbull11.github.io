@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="recipe.html">Recipe</a></li>
+            <li><a href="forms.html">Form</a></li>
+        </ul>
+    </nav> 
+    <h1>Dado Cafe</h1>
+<h2>Lunch Order Form</h2> 
+<p>Dado Lunch daily specials<br>
+$9.95 plus tax (extra charges listed in form<br>
+includes luch snacks and drink</p><br>
+<table>
+        <thead>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Closed</td>
+                <td>11:00am-3:00pm</td>
+                <td>11:00am-3:00pm</td>
+                <td>11:00am-3:00pm</td>
+                <td>11:00am-3:00pm</td>
+                <td>11:00am-3:00pm</td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <td colspan="7">Fall 2020 Hours and December, 2021</td>
+            </tr>
+        </tbody>
+    </table>
+<form name="LunchOrder" method="POST" data-netlify="true">
+    <fieldset>
+        <legend>Customer Information</legend>
+
+        <label for="FirstName">First Name</label><br>
+        <input type="text" id="FirstName" required="required" placeholder="First Name"autofocus><br>
+       
+        <label for="LastName">Last name</label><br>
+        <input type="text" id="LastName" required="required" placeholder="Last Name"autofocus><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" id="email" required="required" placeholder="email"autofocus><br>
+
+        <label for="phone">Phone</label><br>
+        <input type="text" id="phone" required="required" placeholder="phone"autofocus><br>
+
+        <p>Delivery Method</p>
+        <label for="eat-in">Dine in</label>
+        <input type="radio" name="delivery" id="eat-in" value="eat in">
+       
+        <label for="to-go">Takeout</label>
+        <input type="radio" name="delivery" id="to-go" value="to-go">
+        
+        <label for="deliver-to">Delivery</label>
+        <input type="radio" name="delivery" id="deliver-to" value="delivery-to">
+  </fieldset>
+
+  <fieldset>
+      <h3>Monday</h3>
+      <input type="radio" id="chicken-salad" name="sandwhich" value="chicken-salad">
+      <label for="chicken-salad">Chicken Sandwhich</label><br>
+        <input type="radio" id="tomato-mozzerella" name="sandwhich" value="tomato-mozzerella">
+      <label for="tomato-mozzerella">Tomato Mozzerla</label><br>
+
+      <h3>Tuesday</h3>
+      <input type="radio" id="greek-wrap" name="sandwhich" value="greek-wrap">
+      <label for="greek-wrap">Greek Salad Wrap</label><br>
+        <input type="radio" id="toto-wrap" name="sandwhich" value="toto-wrap">
+      <label for="toto-wrap">Toto Wrap</label><br>
+
+      <h3>Wednesday</h3>
+      <input type="radio" id="red-pepper-hummus" name="sandwhich" value="red-pepper-hummus">
+      <label for="red-pepper-hummus">Red Pepper Hummus</label><br>
+        <input type="radio" id="roasted-turkey" name="sandwhich" value="roasted-turkey">
+      <label for="roasted-turkey">Roasted Turkey</label><br>
+
+      <h3>Thursday</h3>
+      <input type="radio" id="carrot-ginger-hummus" name="sandwhich" value="carrot-ginger-hummus">
+      <label for="carrot-ginger-hummus">Carrot Ginger Hummus</label><br>
+        <input type="radio" id="egg-salad" name="sandwhich" value="egg-salad">
+      <label for="egg-salad">Egg Salad</label><br>
+
+      <h3>Friday</h3>
+      <input type="radio" id="dado-wrap" name="sandwhich" value="dado-wrap">
+      <label for="dado-wrap">Dado Wrap</label><br>
+        <input type="radio" id="tuna-salad" name="sandwhich" value="tuna-salad">
+      <label for="tuna-salad">Tuna Salad</label><br>
+
+
+      <hr> 
+
+      <input type="Checkbox" id="gf-bread" name="gf-bread" value="gf-bread">
+      <label for="gf-bread">Gluten Free Bread (75&cent; extra) </label><br>
+    </fieldset>
+
+    <fieldset>
+        <h3>Snacks</h3>
+        <input type="radio" id="apple" name="snack" value="apple">
+        <label for="apple">Apple</label><br>
+       
+        <input type="radio" id="banana" name="snack" value="banana">
+        <label for="banana">Banana</label><br>
+       
+        <input type="radio" id="potato-chips" name="snack" value="potato-chips">
+        <label for="potato-chips">Potato Chips</label><br>
+    </fieldset>
+
+<fieldset>
+<legend>Drinks</legend>
+<label for="drinks"></label> 
+
+<p>choose from iced or hot black tea, green tea, coffee, or bubble tea</p>
+
+<select name="drinks" id="drinks">
+<optgroup label="black-tea">
+<option>Hot Black Tea - Keenum</option>
+<option>Hot Black Tea - Decaf Keenum</option>
+<option>Iced Black Tea - Keenum</option>
+<option>Iced Black Tea - Decaf Keenum</option>
+</optgroup>
+
+<optgroup label="green-tea">
+<option>Hot Green Tea Sencha</option>
+<option>Hot Green Tea - Decaf</option>
+<option>Iced Green Tea - Sencha</option>
+<option>Iced Green Tea - Decaf</option>
+</optgroup>
+
+<optgroup label="coffee">
+<option>Hot coffee</option>
+<option>Hot Decaf Coffee</option>
+<option>Iced Coffee</option>
+<option>Iced Decaf Coffee</option>
+</optgroup>
+
+<optgroup
+<option label="bubble-tea">
+    <option>Bubble Tea (&dollar;1.50 extra)</option>
+<optgroup>
+
+    <select>
+    <br>
+<input type="checkbox" id="lg-drink" name="lg-drink" value="lg-drink">
+<label for="lg-drink">Large Drink (75&cent;extra)</label><br>
+</optgroup>
+</fieldset>
+
+<p>
+    <button class="form-btn">Place Order</button>
+    <button class="form-btn">Reset Form</button>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
