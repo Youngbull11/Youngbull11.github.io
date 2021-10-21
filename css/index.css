@@ -7,11 +7,38 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
 
-    #main-nav {
+      .icon-row-1{
+    height: 69vh;
+    background-image: url(/img/Deer4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+      #main-nav {
 font-variant:all small-caps;
 font-size: 1.25;
-
     }
+
+#main-nav a:link{
+    color: darkred;
+}
+
+#main-nav a:visited{
+
+    color: gold;
+}
+
+#main-nav a:hover{
+
+    color: rgb(177, 87, 230);
+}
+header{
+
+    height: 60vh;
+    background-image: url(/img/dillon-austin-77v4AkZaqDw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+background-position: center;
+}
 
     h1, h2 {
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -29,8 +56,8 @@ h2 {
 p {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 1.75rem; 
-color: rgb(77, 76, 76);
+color: rgb(9, 171, 247);
 }
 .journey-intro{
-color: hotpink;
+color: rgb(7, 177, 245);
 }
