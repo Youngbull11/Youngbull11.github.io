@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/forms.css">
 </head>
 <body>
+
+<div id="wrapper">
+
+
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -15,11 +21,14 @@
             <li><a href="forms.html">Form</a></li>
         </ul>
     </nav> 
-    <h1>Dado Cafe</h1>
-<h2>Lunch Order Form</h2> 
-<p>Dado Lunch daily specials<br>
-$9.95 plus tax (extra charges listed in form<br>
-includes luch snacks and drink</p><br>
+
+    <main>
+        <h1>Dado Cafe</h1>
+        <h2>Lunch Order Form</h2> 
+        <p>Dado Lunch daily specials<br>
+        $9.95 plus tax (extra charges listed in form<br>
+        includes luch snacks and drink</p><br>
+    </main>
 <table>
         <thead>
             <tr>
@@ -34,13 +43,13 @@ includes luch snacks and drink</p><br>
         </thead>
         <tbody>
             <tr>
-                <td>Closed</td>
+                <td class=".hour">Closed</td>
                 <td>11:00am-3:00pm</td>
                 <td>11:00am-3:00pm</td>
                 <td>11:00am-3:00pm</td>
                 <td>11:00am-3:00pm</td>
                 <td>11:00am-3:00pm</td>
-                <td>Closed</td>
+                <td class=".hour">Closed</td>
             </tr>
             <tr>
                 <td colspan="7">Fall 2020 Hours and December, 2021</td>
@@ -54,7 +63,7 @@ includes luch snacks and drink</p><br>
         <label for="FirstName">First Name</label><br>
         <input type="text" id="FirstName" required="required" placeholder="First Name" autofocus><br>
        
-        <label for="LastName">Last name</label><br>
+        <label for="LastName">Last Name</label><br>
         <input type="text" id="LastName" required="required" placeholder="Last Name"><br>
 
         <label for="email">Email</label><br>
@@ -168,5 +177,7 @@ includes luch snacks and drink</p><br>
     <button class="form-btn">Place Order</button>
     <button class="form-btn">Reset Form</button>
 </p>
+
+</div> 
 </body>
 </html>

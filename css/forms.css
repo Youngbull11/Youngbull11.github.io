@@ -1,0 +1,121 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+} 
+
+body{
+    background-color: rgb(80, 56, 41);
+    background-image: url(/img/jeremy-yap-jn-HaGWe4yw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.25rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+    color: white;
+}
+
+h1{
+    color: gold;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+}
+
+#wrapper{
+    width: 70vw;
+    margin: 0 auto;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+h3{
+    margin: 4px;
+    padding: 0;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+table,
+tr,
+th,
+td {
+    border:1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin: 40px 0;
+    padding: 2px 0;
+}
+
+td{
+ padding: 4px 8px;
+}
+
+thead,
+tr{
+    background-color:rgb(69, 143, 192)
+}
+
+.hour {
+    background-color: darkblue;
+    color: darkgreen;
+}
+
+tr :nth-child(1) {
+    text-align: center;
+}
+
+form,
+main{
+    width: 62%;
+    background-color:rgba(255, 255, 255, 0.267);
+    padding: 10px;
+}
+
+main{
+    padding-left: 30px;
+}
+
+fieldset{
+    margin: 12px 18px;
+}
+
+legend{
+    font-size: 1.8rem;
+    font-variant-caps: all-petite-caps;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color:rgb(128, 159, 194)
+}
+
+label[for="FirstName"],
+label[for="LastName"],
+label[for="email"],
+label[for="phone"] {
+background-color: rgb(47, 78, 145);
+width: 100px;
+text-align:left;
+display: inline-block;
+padding-right: 18px;
+margin-bottom: 8px;
+}
+
+button{
+    padding: 10px 15px;
+    margin-left: 10%;
+    background-color: rgb(204, 204, 93);
+    color: rgb(0, 0, 0);
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    box-shadow:3px 4px rgb(46, 48, 146);
+    cursor: pointer;
+}

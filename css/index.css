@@ -2,17 +2,12 @@
 
 /*this css is for the index.css*/
 
-body {
+body{
     background-color: rgb(202, 172, 131);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
+    }
 
-      .icon-row-1{
-    height: 69vh;
-    background-image: url(/img/Deer4.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-}
+
       #main-nav {
 font-variant:all small-caps;
 font-size: 1.25;
