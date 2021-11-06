@@ -1,16 +1,17 @@
 
 
-/*this css is for the index.css*/
+/*this css is for about.css*/ 
+/* font-family: 'Roboto', sans-serif;* font-family: 'Fruktur', cursive;*/
 
 body{
-    background-color: rgb(202, 172, 131);
+    background-color: rgb(0, 0, 0);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 
       #main-nav {
 font-variant:all small-caps;
-font-size: 1.25;
+font-size: 2.25;
     }
 
 #main-nav a:link{
@@ -26,19 +27,17 @@ font-size: 1.25;
 
     color: rgb(177, 87, 230);
 }
-header{
-
-    height: 60vh;
-    background-image: url(/img/dillon-austin-77v4AkZaqDw-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-background-position: center;
-}
 
     h1, h2 {
    font-family: Georgia, 'Times New Roman', Times, serif;
-   color: blueviolet;
+   color: rgb(255, 255, 255);
    font-variant: small-caps;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
 }
 
 h1{
@@ -48,11 +47,17 @@ h1{
 h2 {
     font-size: 2.5rem;
 }
+
 p {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 1.75rem; 
-color: rgb(9, 171, 247);
+color: rgb(99, 55, 156);
 }
+
 .journey-intro{
-color: rgb(7, 177, 245);
+color: rgb(255, 255, 255);
+}
+
+ul{
+    color: white;
 }
