@@ -1,3 +1,144 @@
-body{
-    background-color: orange;
+html{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
+
+*, *:before, *:after{
+    box-sizing: inherit;
+} 
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:  font-family 'Fruktur', cursive;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    background-image:url(/img/plad\ backgrund\ green.jpg)
+}
+
+#main-nav {
+    font-variant:all small-caps;
+    font-size: 2.25;
+        }
+    
+    #main-nav a:link{
+        color: darkred;
+    }
+    
+    #main-nav a:visited{
+    
+        color: gold;
+    }
+    
+    #main-nav a:hover{
+    
+        color: rgb(87, 161, 230);
+    }
+    
+    nav li{
+        list-style-type: none;
+        display: inline;
+        padding-right: 20px;
+    }
+   
+    h1,h2,h3{
+        font-family:Arial, Helvetica, sans-serif
+    }
+
+    h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    h2,h3,h4{
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+  main{
+    width: 90;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: rgb(16, 76, 78);
+    color: rgb(255, 255, 255);
+  }
+  nav{
+      height: 60px;
+      background-color: rgb(13, 59, 105);
+      margin-bottom: 50px;
+      font-size: 1.8rem;
+  }
+
+  nav ul{
+      display: flex;
+      justify-content: space-around;
+      font-variant-caps: all-petite-caps;
+      list-style: none;
+      }
+      
+   .container{
+       display: grid;
+       grid-template-areas:
+       "header header header header header"
+       "details image image image supplies"
+       "instructions instructions instructions directions directions"
+       "nutrition nutrions nutritions video video"
+       "footer footer footer footer footer"
+   }
+
+   .row1-head{
+       grid-area: header;
+       margin-bottom: 20px;
+   }
+
+   .row2-left{
+       grid-area: details;
+       padding-left: 10px;
+   }
+
+   .row2-center{
+       grid-area: image;
+       justify-self: center;
+   }
+
+   img{
+       width: 500px;
+       border:5px whitesmoke dotted;
+       padding: 10px
+   }
+
+   .row2-right{
+    grid-area: supplies;
+    padding-right: 20px;
+   }
+
+   .row3-left{
+       grid-area: instructions;
+   }
+
+   .row4-right{
+       grid-area: video;
+       padding-bottom: .9rem;
+   }
+
+   .row3-right{
+       grid-area: directions;
+    
+   }
+
+   footer{
+       grid-area: footer;
+       font-size: .9rem;
+   }
+
+   hr{
+       border-top:5px whitesmoke dotted;
+   }
+
+   a{
+       text-decoration: wavy;
+       text-underline-offset: 1px;
+       color: skyblue;
+   }
