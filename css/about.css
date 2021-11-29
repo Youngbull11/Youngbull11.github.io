@@ -48,6 +48,7 @@ ol{
     
 }
 
+
 .me{
     max-width: 45%;
     margin-right: 20px;
@@ -66,3 +67,24 @@ hr{
     width: 40%;
     margin-left: 85px;
  }
+
+@keyframes slide{
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+    50% {
+        transform: translate3d(800px, 0px, 0px);
+    }
+
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+
+.me {
+     animation: slide 2s infinite;
+ }
+
+ 
