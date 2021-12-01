@@ -82,9 +82,10 @@ hr{
     }
 }
 
+.me{
+    animation: slide 10s infinite;
+}
 
-.me {
-     animation: slide 2s infinite;
- }
-
- 
+.me{
+    transition: all 4s ;
+}
