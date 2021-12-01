@@ -89,3 +89,9 @@ hr{
 .me{
     transition: all 4s ;
 }
+
+h1,
+h2,
+h3{
+    transition:all 4s;
+}
